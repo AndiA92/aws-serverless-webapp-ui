@@ -1,0 +1,11 @@
+[
+  {
+    "name": "localhost",
+    "children": [
+      {
+        "name": "localhost1",
+        "parent": "localhost"
+      }
+    ]
+  }
+]
