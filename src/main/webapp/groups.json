@@ -1,6 +1,7 @@
 [
   {
-    "tuat": {
+    "name": "tuat",
+    "entryPoint": {
       "name": "atkdev1",
       "children": [
         {
@@ -17,7 +18,8 @@
                   "children": [
                     {
                       "name": "atdev2",
-                      "parent": "atdev1"
+                      "parent": "atdev1",
+                      "children": []
                     }
                   ]
                 }
@@ -26,8 +28,11 @@
           ]
         }
       ]
-    },
-    "eprod": {
+    }
+  },
+  {
+    "name": "eprod",
+    "entryPoint": {
       "name": "atk-evo-mdata-3",
       "children": [
         {
@@ -40,7 +45,8 @@
               "children": [
                 {
                   "name": "ejam-2",
-                  "parent": "ejam-1"
+                  "parent": "ejam-1",
+                  "children": []
                 }
               ]
             }

@@ -1,10 +1,17 @@
+svg {
+    width: calc(100% - 100px);
+    padding: 100px;
+}
+
 .node circle {
     fill: #fff;
     stroke: steelblue;
     stroke-width: 3px;
 }
 
-.node text { font: 12px sans-serif; }
+.node text {
+    font: 12px sans-serif;
+}
 
 .link {
     fill: none;
